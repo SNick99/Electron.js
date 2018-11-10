@@ -1,0 +1,14 @@
+# for use in npm scripts 
+npm install electron-packager --save-dev
+
+# for use from cli 
+npm install electron-packager -g
+
+# build application (default)
+npm run build
+
+# build application for other platforms
+electron-packager . --platform=win32 --arch=x64
+
+# platform: darwin, linux, mas, win32
+# arch: ia32, x64, armv7l, arm64
