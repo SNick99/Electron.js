@@ -1,3 +1,3 @@
 # Electron.js
-My projects on Electron.js
+My project on Electron.js
 It's Snake game
